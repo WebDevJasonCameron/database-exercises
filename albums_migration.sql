@@ -2,6 +2,8 @@ CREATE DATABASE IF NOT EXISTS code_test_db;
 -- pluralizing the name of the table
 USE code_test_db;
 
+TRUNCATE albums;
+
 -- 3. Write some SQL to drop a table named albums if it exists.
 DROP TABLE IF EXISTS albums;
 

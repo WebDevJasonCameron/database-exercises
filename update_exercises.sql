@@ -1,3 +1,5 @@
+USE code_test_db;
+
 -- Write SELECT statements to output each of the following with a caption:
 # All albums in your table.
 SELECT artist AS 'Rock Group',
@@ -23,6 +25,8 @@ UPDATE albums
     SET sales = sales * 10
     WHERE release_date < 1980;
 
+SELECT * FROM albums;
+
 #  All albums by Michael Jackson
 SELECT artist AS 'Rock Group',
        name AS 'Album Title',
@@ -30,16 +34,27 @@ SELECT artist AS 'Rock Group',
        sales AS 'Total Sales',
        genre
     FROM albums
-    WHERE artist = 'MICHAEL JACKSON';
+    WHERE artist = 'Michael Jackson';
+
+
 
 UPDATE albums
     SET sales = sales * 10
-    WHERE artist = 'MICHAEL JACKSON';
+    WHERE artist = 'Michael Jackson';
+
+SELECT * FROM albums
+    WHERE artist = 'Michael Jackson';
 
 UPDATE albums
     SET release_date = release_date - 100
     WHERE release_date < 1980;
 
+SELECT * FROM albums
+    WHERE release_date < 1980;
+
 UPDATE albums
     SET name = 'Peter Jackson'
+    WHERE name = 'Michael Jackson';
+
+SELECT * FROM albums
     WHERE name = 'Michael Jackson';
