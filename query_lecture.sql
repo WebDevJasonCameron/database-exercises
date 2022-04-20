@@ -9,7 +9,6 @@ SELECT last_name FROM employees
 WHERE last_name LIKE 'a%z%';
 
 
-
 # DISTINCT - for filtering out duplicate results
 # Select distinct first names from employees where first name contains a z
 

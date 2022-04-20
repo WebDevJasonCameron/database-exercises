@@ -27,7 +27,7 @@ ORDER BY last_name, first_name ;
 #    the results by their employee number. Make sure the employee numbers
 #    are in the correct order.
 SELECT last_name FROM employees
-WHERE last_name LIKE 'e%'
+WHERE last_name LIKE '%e%'
 ORDER BY emp_no;
 
 # 6. Now reverse the sort order for both queries and compare results.
