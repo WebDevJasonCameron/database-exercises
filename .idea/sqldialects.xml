@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/albums_migration.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/blog-app.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/delete_exercises.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/functions_exercises.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/functions_lecture.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/order_by_exercises.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/query_lecture.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/sandbox.sql" dialect="MySQL" />
