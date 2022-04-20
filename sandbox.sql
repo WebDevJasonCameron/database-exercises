@@ -1,4 +1,13 @@
 USE employees;
 
+DESCRIBE departments;
 
-SELECT * FROM employees WHERE emp_no = 110039;
+DESCRIBE dept_emp;
+
+DESCRIBE dept_manager;
+
+DESCRIBE employees;
+
+DESCRIBE salaries;
+
+DESCRIBE titles;
