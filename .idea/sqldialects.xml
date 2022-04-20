@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/.idea/limit_exercises.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/albums_migration.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/aliases_exercises.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/aliases_lecture.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/blog-app.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/delete_exercises.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/functions_exercises.sql" dialect="MySQL" />
