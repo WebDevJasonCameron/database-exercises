@@ -37,8 +37,4 @@ INSERT INTO users (name, email, role_id) VALUES
                                              ('jane', 'jane@example.com', null),
                                              ('mike', 'mike@example.com', null);
 
-USE join_test_db;
 
-SELECT users.name AS user_name,
-       roles.name AS role_name
-FROM users LEFT JOIN roles ON users.role_id = roles.id;
