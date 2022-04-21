@@ -50,3 +50,15 @@ VALUES (1, 12), (1, 5), (1, 22), (1, 29), (2, 1), (2, 31), (2, 30), (3, 11), (3,
 
 TRUNCATE preferences;
 
+SELECT p.first_name AS First_Name,
+       a.name AS Favorite_Album
+FROM persons p
+    JOIN preferences pf on p.id = pf.person_id
+    JOIN albums a on pf.album_id = a.id
+WHERE p.first_name = 'Olivia';
+
+SELECT p.first_name AS First_Name,
+       a.name AS Favorite_Album
+FROM persons p
+         JOIN preferences pf on p.id = pf.person_id
+         JOIN albums a on pf.album_id = a.id;
