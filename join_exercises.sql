@@ -69,4 +69,17 @@ SELECT CONCAT(e.first_name, ' ', e.last_name) AS "Employee",
                JOIN departments d on de.dept_no = d.dept_no,
                 employees e2
                JOIN dept_manager dm on e2.emp_no = dm.emp_no
-WHERE de.to_date > NOW();
+WHERE de.to_date > NOW()
+    AND dm.to_date > NOW();
+
+SELECT CONCAT(e.first_name, ' ', e.last_name) AS "Employee",
+       dept_name AS "Department",
+       CONCAT(e2.first_name, ' ', e2.last_name) AS "Manager"
+ FROM employees e
+        JOIN dept_emp de ON e.emp_no = de.emp_no
+        JOIN departments d ON de.dept_no = d.dept_no
+        JOIN dept_manager dm ON d.dept_no = dm.dept_no
+        JOIN employees e2 ON dm.emp_no = e2.emp_no
+WHERE YEAR(de.to_date) = 9999 AND YEAR(dm.to_date) = 9999;
+
+
